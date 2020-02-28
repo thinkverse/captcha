@@ -11,6 +11,9 @@ commands:
     permission: captcha.reload
     usage: /<command>
 permissions:
+  captcha.reload:
+    description: Access to /captcha command
+    default: op
   captcha.bypass:
     description: Bypass CaptchaGUI
     default: op
