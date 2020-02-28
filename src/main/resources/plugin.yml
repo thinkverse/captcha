@@ -1,0 +1,16 @@
+name: CaptchaGUI
+version: ${project.version}
+main: com.github.thinkverse.captcha.CaptchaGUI
+prefix: CaptchaGUI
+authors: [thinkverse]
+description: Simple GUI Captcha
+website: thinkverse.dev
+commands:
+  captcha:
+    description: Reload CaptchaGUI
+    permission: captcha.reload
+    usage: /<command>
+permissions:
+  captcha.bypass:
+    description: Bypass CaptchaGUI
+    default: op

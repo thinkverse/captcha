@@ -1,0 +1,3 @@
+inventory:
+  on_close: "&aYou closed the captcha, please try again."
+  on_wrong_item: "&aYou clicked the wrong item, please try again."
